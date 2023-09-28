@@ -1,6 +1,6 @@
 {
-  "name": "carbide-license",
-  "description": "Carbide license management dashboard",
+  "name": "carbide licensing",
+  "description": "Carbide License Management extension",
   "version": "0.1.0",
   "private": false,
   "rancher": true,
