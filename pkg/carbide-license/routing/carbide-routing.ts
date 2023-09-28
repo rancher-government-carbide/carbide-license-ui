@@ -3,7 +3,7 @@ import ListResource from '@shell/pages/c/_cluster/_product/_resource/index.vue';
 import CreateResource from '@shell/pages/c/_cluster/_product/_resource/create.vue';
 import ViewResource from '@shell/pages/c/_cluster/_product/_resource/_id.vue';
 import ViewNamespacedResource from '@shell/pages/c/_cluster/_product/_resource/_namespace/_id.vue';
-import MyCustomPage from '../pages/myCustomPage.vue';
+import Dashboard from '../pages/dashboard.vue';
 const BLANK_CLUSTER = '_';
 // to achieve naming consistency throughout the extension
 // we recommend this to be defined on a config file and exported
@@ -15,7 +15,7 @@ const routes = [
   {
     name:      `${ YOUR_PRODUCT_NAME }-c-cluster-${ CUSTOM_PAGE_NAME }`,
     path:      `/${ YOUR_PRODUCT_NAME }/c/:cluster/${ CUSTOM_PAGE_NAME }`,
-    component: MyCustomPage,
+    component: Dashboard,
     meta:      {
       product: YOUR_PRODUCT_NAME,
       cluster: BLANK_CLUSTER
